@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@1,300;1,400&family=Poppins:wght@200;300;400&family=Roboto:ital,wght@0,300;0,400;1,100&family=Shadows+Into+Light&display=swap"
+      rel="stylesheet"
+    />
+    <title>gestion des produits</title>
+  </head>
+  <body>
+    <h1>gestion des produits</h1>
+    <div class="container">
+      <table>
+        <tr>
+          <th>produit</th>
+          <th>image</th>
+          <th>type</th>
+          <th>quantity</th>
+          <th>ajouter</th>
+          <th>supprimer le produit</th>
+          <th>supprimer</th>
+        </tr>
+        <tr>
+          <td>produit 1</td>
+          <td><img src="./image/images.jpeg" alt="" class="image" /></td>
+          <td>hydratation</td>
+          <td class="count">1</td>
+          <td onclick="addOne(event)"><i class="fas fa-plus"></i></td>
+          <td onclick="removeProduct(event)"><i class="fas fa-minus"></i></td>
+          <td onclick="deleteProduct(event)"><i class="fas fa-trash"></i></td>
+        </tr>
+        <tr>
+          <td>produit 2</td>
+          <td><img src="./image/images.jpeg" alt="" class="image" /></td>
+          <td>hydratation</td>
+          <td class="count">2</td>
+          <td onclick="addOne(event)"><i class="fas fa-plus"></i></td>
+          <td onclick="removeProduct(event)"><i class="fas fa-minus"></i></td>
+          <td onclick="deleteProduct(event)"><i class="fas fa-trash"></i></td>
+        </tr>
+      </table>
+    </div>
+    <script src="./script.js "></script>
+  </body>
+</html>

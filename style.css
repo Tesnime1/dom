@@ -1,0 +1,27 @@
+body {
+  background-color: #efefef69;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-size: medium;
+}
+.image {
+  width: 200px;
+  height: 250px;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+table {
+  border-radius: 20px;
+  width: 90%;
+  margin: 20px;
+  font-weight: bold;
+  gap: 20px;
+  backdrop-filter: blur(20px);
+  overflow: auto;
+  -webkit-box-shadow: -3px 0px 22px 4px rgba(184, 182, 184, 0.66);
+  -moz-box-shadow: -3px 0px 22px 4px rgba(184, 182, 184, 0.66);
+  box-shadow: -3px 0px 22px 4px rgba(184, 182, 184, 0.66);
+}
